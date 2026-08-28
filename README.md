@@ -68,8 +68,7 @@ Stores financial performance data associated with each movie.
 
 | Column | Type | Description |
 | --- | --- | --- |
-| FinancialID | INT (PK) | Unique record identifier |
-| MovieID | INT (FK, UNIQUE) | Linked movie |
+| MovieID | INT (PK, UNIQUE) | Linked movie |
 | budget_million_usd | MONEY | Budget in millions USD |
 | box_office_million_usd | MONEY | Box office revenue in millions USD |
 | production_cost_million_usd | MONEY | Production cost in millions USD |
@@ -82,8 +81,7 @@ Stores audience and critical performance indicators.
 
 | Column | Type | Description |
 | --- | --- | --- |
-| MetricsID | INT (PK) | Unique record identifier |
-| MovieID | INT (FK, UNIQUE) | Linked movie |
+| MovieID | INT (PK, UNIQUE) | Linked movie |
 | imdb_rating | FLOAT | IMDb rating |
 | rotten_tomatoes_rating | FLOAT | Rotten Tomatoes score |
 | metacritic_score | FLOAT | Metacritic rating |
