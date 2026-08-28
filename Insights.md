@@ -1,4 +1,9 @@
 # Insights
+<br>
+
+This section explores the Disney movie dataset using SQL queries to identify trends and insights across movies, ratings, cast and crew, and financial performance.
+
+<br>
 
 ## Top 10 highest-grossing movies
  
