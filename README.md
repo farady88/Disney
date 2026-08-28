@@ -95,6 +95,12 @@ The core relationship model is:
 - Movies has a one-to-one relationship with Metrics
 - Movies has a many-to-many relationship with People through MoviePeople
 
+## Insights
+
+SQL queries were used to explore the Disney movie dataset and identify trends and insights.
+
+[View the insights](Insights.md)
+
 ## Project Files
 
 - SQL Script: contains the full CREATE TABLE statements and sample insert data for the Disney movie database
