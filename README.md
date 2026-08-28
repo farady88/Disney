@@ -25,7 +25,7 @@ The goal is to make the data easier to query for analysis such as:
 
 ## Entity Relationship Diagram
 
-![Disney ERD](erd.png)
+![Disney ERD](disney-movies-erd.png)
 
 ## Schema Summary
 
